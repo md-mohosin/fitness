@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
     color: white;
@@ -11,7 +15,7 @@ header {
 
 .header,
 .banner-section,
-.habit {
+.habit,.run {
     max-width: 1440px;
     width: 80%;
     margin: 0 auto;
@@ -54,7 +58,7 @@ p {
     color: #7E7E7E;
 }
 
-.banner-text button {
+button {
     background-color: transparent;
     color: white;
     border: 1px solid white;
@@ -98,7 +102,7 @@ p {
 
 
 
-.habit {
+.habit,.run {
     margin-top: 150px;
     border: 1px solid blue;
 }
@@ -122,4 +126,27 @@ p {
 
 .habit-image img {
     border-radius: 50%;
+}
+
+
+
+
+
+
+.run{
+    background-color: #222222;
+    height: 400px;
+    display: flex;gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.run-text{
+    padding-left: 50px;
+    width: 35%;
+}
+
+.run-image{
+    width: 40%;
 }
