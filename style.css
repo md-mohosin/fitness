@@ -10,9 +10,10 @@ header {
 }
 
 .header,
-.banner-section {
+.banner-section,
+.habit {
     max-width: 1440px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -49,7 +50,7 @@ nav ul {
     font-size: 78px;
 }
 
-.banner-text p {
+p {
     color: #7E7E7E;
 }
 
@@ -93,4 +94,32 @@ nav ul {
     bottom: 35px;
     left: -100px;
     opacity: 0.8;
+}
+
+
+
+.habit {
+    margin-top: 150px;
+    border: 1px solid blue;
+}
+
+.habit-text {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.habit-text h1{
+    font-size: 50px;
+}
+
+.habit-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.habit-image img {
+    border-radius: 50%;
 }
